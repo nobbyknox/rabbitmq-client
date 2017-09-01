@@ -1,8 +1,8 @@
 {
     "name": "@nobbyknox/rabbitmq-client",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "A Rabbit MQ client",
-    "main": "index.js",
+    "main": "lib/index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
