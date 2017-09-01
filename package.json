@@ -1,0 +1,27 @@
+{
+    "name": "@nobbyknox/rabbitmq-client",
+    "version": "0.0.1",
+    "description": "A Rabbit MQ client",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/nobbyknox/rabbitmq-client.git"
+    },
+    "author": "Nobby Knox <nobbyknox@gmail.com>",
+    "license": "Apache-2.0",
+    "bugs": {
+        "url": "https://github.com/nobbyknox/rabbitmq-client/issues"
+    },
+    "homepage": "https://github.com/nobbyknox/rabbitmq-client#readme",
+    "dependencies": {
+        "amqplib": "0.5.1"
+    },
+    "devDependencies": {
+        "eslint": "3.19.0",
+        "eslint-config-airbnb-base": "11.2.0",
+        "eslint-plugin-import": "2.6.1"
+    }
+}
