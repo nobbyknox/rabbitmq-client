@@ -4,6 +4,12 @@
 
 This client library makes it easy to publish and consume RabbitMQ messages.
 
+## Features
+
+1. API to publish and consume messages
+1. Offline internal queue for when connection to the server is lost. Internally queued messages will be published to the server once it becomes available again.
+1. Continuous reconnection attempts if the connection to the server is lost. No action on your part required.
+
 ## Installation
 
 ```
@@ -11,12 +17,6 @@ npm install @nobbyknox/rabbitmq-client --save
 ```
 
 ## Sample Usage
-
-Specify the RabbitMQ connection URL via an environment variable, like this:
-
-```
-RABBITMQ_URL=amqp://user:password@127.0.0.1?heartbeat=60 node lib/example.js
-```
 
 Here is a full working example that illustrates all the moving parts.
 You can also find this example in the `lib` directory.
