@@ -2,7 +2,7 @@
 
 ## Abstract
 
-This client library makes it easy to publish and consume RabbitMQ messages.
+The primary aim for this library is to make it very easy to publish and consume RabbitMQ messages.
 
 ## Features
 
@@ -19,7 +19,7 @@ npm install @nobbyknox/rabbitmq-client --save
 ## Sample Usage
 
 Here is a full working example that illustrates all the moving parts.
-You can also find this example in the `lib` directory.
+You can also look at `lib/example.js` for a fuller developed example.
 
 ```js
 const RabbitMQClient = require('@nobbyknox/rabbitmq-client');
@@ -36,7 +36,7 @@ queue.on('connected', () => {
 function addSubscriptions() {
     queue.subscribe('test', (msg, ackCallback) => {
         console.log(`Received message from "test" queue: ${msg.content.toString()}`);
-        ackCallback();
+        ackCallback(); // Acknowledge handling of message
     });
 }
 
