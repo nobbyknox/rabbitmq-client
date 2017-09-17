@@ -24,7 +24,8 @@ You can also look at `lib/example.js` for a fuller developed example.
 ```js
 const RabbitMQClient = require('@nobbyknox/rabbitmq-client');
 
-const queue = new RabbitMQClient('amqp://user:password@127.0.0.1?heartbeat=60');
+// Instantiate new client with connection URL and prefetch number
+const queue = new RabbitMQClient('amqp://user:password@127.0.0.1?heartbeat=60', 10);
 
 queue.connect();
 
