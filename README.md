@@ -18,7 +18,7 @@ npm install @nobbyknox/rabbitmq-client --save
 
 ## Sample Usage
 
-Here is a full working example that illustrates all the moving parts.
+Here is a fully working example that illustrates all the moving parts.
 You can also look at `lib/example.js` for a fuller developed example.
 
 ```js
