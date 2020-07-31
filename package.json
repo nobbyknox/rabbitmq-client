@@ -18,11 +18,6 @@
     },
     "homepage": "https://github.com/nobbyknox/rabbitmq-client#readme",
     "dependencies": {
-        "amqplib": "0.5.1"
-    },
-    "devDependencies": {
-        "eslint": "3.19.0",
-        "eslint-config-airbnb-base": "11.2.0",
-        "eslint-plugin-import": "2.6.1"
+        "amqplib": "0.6.0"
     }
 }
